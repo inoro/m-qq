@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   list-style: none;
+  -webkit-text-size-adjust:none;
 }
 body,
 html,
@@ -123,6 +124,21 @@ p {
   margin-top: 3px;
 }
 
+.chatItem .chatInfoOther p{
+  text-align: right;
+  font-size: 14px;
+  margin-top: 4px;
+}
+.chatItem .chatInfoOther p .noRead{
+  background-color: red;
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 3px;
+  border-radius: 100%;
+  transform: scale(0.9);
+  transform-origin: 0 0;
+  display: inline-block;
+}
 .chatItem .chatInfoOther p:nth-child(1) {
   font-size: 14px;
   color: #999;

@@ -17,7 +17,12 @@ function ChatItem(props) {
       </div>
       <div className="chatInfoOther">
         <p>{item.time}</p>
-        {item.read && item.read.status == 0 ? <p>{item.read.num}</p> : null}
+        {
+          item.read && item.read.status == 0 ? 
+          <p>
+            <span className="noRead">{item.read.num}</span>
+          </p> : null
+        }
       </div>
     </div>
   );

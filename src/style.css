@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+body,
+html,
+#root {
+  height: 100%;
+}
+h1,
+p {
+  font-family: Lato;
+}
+.container {
+  margin: auto;
+  padding: 0px;
+  background-color: #f4f4f4;
+  height: 100%;
+}
+
+/* header */
+.header {
+  background-color: #ffffff;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header .userInfo {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+
+  align-items: center;
+}
+
+.header .userInfo .userInfoLeft {
+  display: flex;
+  align-items: center;
+}
+
+.header .userInfo .userInfoLeft .userInfoPicture {
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+  border-radius: 100%;
+  margin-right: 5px;
+  background-position: center;
+  background-size: contain;
+}
+
+.header .userInfo .userInfoLeft .username span {
+  display: block;
+  font-size: 12px;
+}
+
+.header .userInfo .userInfoLeft .username {
+  display: flex;
+  flex-direction: column;
+}
+
+.header .userInfo .userInfoLeft .username span:nth-child(1) {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.header .userInfo .userInfoLeft .username span:nth-child(2) i {
+  height: 8px;
+  width: 8px;
+  background-color: orange;
+  display: inline-block;
+  border-radius: 100%;
+  position: relative;
+  top: 1px;
+  margin-right: 4px;
+}
+
+.header .search {
+  padding-bottom: 15px;
+}
+
+.header .search input {
+  background-color: #f4f4f4;
+  border: none;
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  border-radius: 40px;
+  outline: none;
+}
+
+/* chatList */
+.chatList {
+  height: calc(100% - 120px);
+}
+
+/* chatItem */
+.chatItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 20px;
+}
+.chatItem .chatLeft {
+  display: flex;
+  align-items: center;
+}
+.chatItem .chatPicture {
+  height: 40px;
+  width: 40px;
+  background-color: #ddd;
+  border-radius: 100%;
+  margin-right: 10px;
+  background-position: center;
+  background-size: contain;
+}
+.chatItem .chatInfo p:nth-child(1) {
+  font-size: 16px;
+}
+.chatItem .chatInfo p:nth-child(2) {
+  font-size: 14px;
+  color: #999;
+  margin-top: 3px;
+}
+
+.chatItem .chatInfoOther p:nth-child(1) {
+  font-size: 14px;
+  color: #999;
+}

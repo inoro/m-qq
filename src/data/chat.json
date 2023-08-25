@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "好友动态",
+    "lastMessage": "新增1位访客",
+    "userImage": "https://tse2-mm.cn.bing.net/th/id/OIP-C.CmxLM6DPw7Dm0WajS-n22AAAAA?pid=ImgDet&rs=1",
+    "time": "12:34"
+  },
+  {
+    "id": 2,
+    "name": "钱包",
+    "lastMessage": "看看你能借出多少钱",
+    "userImage": "https://ts2.cn.mm.bing.net/th?id=ODLS.7cb27b36-959a-4c2a-af7a-8892a56965f9&w=32&h=32&o=6&pid=13.1",
+    "time": "12:34"
+  },
+  {
+    "id": 4,
+    "name": "张均子",
+    "lastMessage": "周五过来哦~~",
+    "userImage": "https://p1-jj.byteimg.com/tos-cn-i-t2oaga2asx/mirror-assets/16be3accd35712bae71~tplv-t2oaga2asx-jj-mark:210:210:0:0:q75.awebp",
+    "time": "12:34",
+    "read": {
+      "status": 0,
+      "num": 12
+    }
+  }
+]
